@@ -1,0 +1,40 @@
+
+.logo1{
+  display: flex;
+  padding: 20px;
+  width: 100px;
+ text-align: center;
+  margin: 24px 0 12px 0;
+}
+#c1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+#c2{
+  width: 400px;
+    padding: 20px;
+    background-color: #ccc;
+    border-radius: 16px;
+    border: 2px solid #ccc;
+}
+#c3{
+  padding: 12px;
+  font-size: 12px;
+}
+img{
+  width: 40%;
+  border-radius: 50%;
+}
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 18px;
+}
