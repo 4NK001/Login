@@ -1,20 +1,20 @@
-#c1{
+#bg{
+  position: relative; 
     display:flex;
     justify-content: center;
     align-items: center;
    
-    
-    
 }
-#c2{
+#frm{
   width: 400px;
     padding: 20px;
     background-color: #ccc;
     border-radius: 16px;
     border: 3px solid #ccc;
     border-color: black;
+    color: #666;
 }
-#c3{
+#lk{
   padding: 12px;
   font-size: 12px;
 }
@@ -24,10 +24,15 @@ img{
 }
 input{
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 12px 12px;
+  margin: 2px 0;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
   border-radius: 18px;
+}
+#t1{
+  font-family: serif;
+  text-decoration: underline;
+  color: #666;
 }
