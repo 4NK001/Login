@@ -3,19 +3,19 @@
     <title>Sign Up</title>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+ <script src="Valid.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="bg">
 
-    <forms id="frm" align=center>
+    <form id="frm" align=center onsubmit="return validatefrt()">
         <label for="email">Email</label>
-        <input type="email" name="em"><br><br>
+        <input type="email" id="em"><br><br>
       
         <input type="submit" value="next">
         
-     </forms>
+     </form>
     
     </div>
 </body>
